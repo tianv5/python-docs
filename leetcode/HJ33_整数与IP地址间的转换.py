@@ -56,6 +56,7 @@ def ip_print_int(ip_str):
 
 
 def ip_print_str(n):
+    # n_str = "1010000000000000001111000001"
     n_str = str(bin(n)).replace("0b", "")
 
     len_tou = 32 - len(n_str)
