@@ -3,12 +3,12 @@
 给定
 """
 
-n = int(input().strip())
-data = list(map(int, input().strip().split()))
+# n = int(input().strip())
+# data = list(map(int, input().strip().split()))
 
 
-# n = 8
-# data = [1, -2, 3, 10, -4, 7, 2, -5]
+n = 8
+data = [1, -2, 3, 10, -4, 7, 2, -5]
 #
 # dp = [0 for i in range(n)]
 # dp[0] = data[0]
